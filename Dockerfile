@@ -1,5 +1,5 @@
 # For more information, please refer to https://aka.ms/vscode-docker-python
-FROM python:3.8-slim-buster
+FROM python:3.8-slim
 
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -8,12 +8,15 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # Install pip requirements
+RUN apt-get -y update && \
+    apt-get -y install python3-dev libpq-dev gcc && \
+    apt-get clean
+    
 RUN pip install --no-cache-dir pandas==1.0.5
 RUN pip install --no-cache-dir SQLAlchemy==1.3.18 
-RUN apt-get -y update
-RUN apt-get -y install libpq-dev python-dev gcc && \
-    apt-get clean
 RUN pip install --no-cache-dir psycopg2
+
+#RUN apt-get --purge autoremove python3-dev libpq-dev gcc && \
 
 WORKDIR /app
 ADD . /app
@@ -23,4 +26,4 @@ RUN useradd appuser && chown -R appuser /app
 USER appuser
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
-CMD ["/bin/sh","-c","/app/wait-for-it.sh db:5432 -t 30 -- python app.py"]
+CMD ["/bin/sh","-c","/app/wait-for-it.sh grasindo.api.products:1337 -t 30 -- python app.py"]

@@ -9,14 +9,18 @@ from sqlalchemy import create_engine, types, engine
 
 def seeds(model_name: str = "", db_engine: engine.Engine = None):
 
-    data_frame = pandas.read_csv(f'./csv/{model_name}.csv')
+    current_dir = os.getcwd()
+
+    data_frame = pandas.read_csv(f'{current_dir}/csv/{model_name}.csv', sep=';')
 
     data_frame.columns = [column.lower() for column in data_frame.columns]
 
     data_frame.to_sql(
         model_name,
         db_engine,
-        if_exists='replace',  # options are ‘fail’, ‘replace’, ‘append’, default ‘fail’
+        if_exists='append',  # options are ‘fail’, ‘replace’, ‘append’, default ‘fail’
+        index=False,
+        index_label="id",
     )
 
 
@@ -29,10 +33,11 @@ def main():
 
     current_dir = os.getcwd()
 
-    for filename in os.listdir(current_dir):
+    for filename in os.listdir(f'{current_dir}/csv'):
         filename = os.path.splitext(filename)[0]
         seeds(filename,db_engine)
     
+    db_engine.dispose()
     return
 
 
