@@ -3,7 +3,7 @@ import logging
 import os
 import config
 
-
+import datetime
 from sqlalchemy import create_engine, types, engine
 
 
@@ -14,6 +14,9 @@ def seeds(model_name: str = "", db_engine: engine.Engine = None):
     data_frame = pandas.read_csv(f'{current_dir}/csv/{model_name}.csv', sep=';')
 
     data_frame.columns = [column.lower() for column in data_frame.columns]
+
+    data_frame["created_at"] = datetime.date(2000, 1, 1)
+    data_frame["updated_at"] = datetime.datetime.now()
 
     data_frame.to_sql(
         model_name,
