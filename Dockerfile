@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir pandas==1.0.5
 RUN pip install --no-cache-dir SQLAlchemy==1.3.18 
 RUN pip install --no-cache-dir psycopg2
 
-#RUN apt-get --purge autoremove python3-dev libpq-dev gcc && \
+RUN apt-get -y --purge autoremove python3-dev gcc
 
 WORKDIR /app
 ADD . /app
@@ -27,3 +27,5 @@ USER appuser
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
 CMD ["/bin/sh","-c","/app/wait-for-it.sh grasindo.api.products:1337 -t 30 -- python app.py"]
+
+LABEL Name=grasindo.api.seeder Version=0.0.1
