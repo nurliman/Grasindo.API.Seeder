@@ -26,6 +26,5 @@ RUN useradd appuser && chown -R appuser /app
 USER appuser
 
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
-CMD ["/bin/sh","-c","/app/wait-for-it.sh grasindo.api.products:1337 -t 30 -- python app.py"]
-
 LABEL Name=grasindo.api.seeder Version=0.0.1
+CMD ["/bin/sh","-c","/app/wait-for-it.sh grasindo.api.products:1337 -t 30 -- python app.py"]
