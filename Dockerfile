@@ -12,9 +12,10 @@ RUN apt-get -y update && \
     apt-get -y install python3-dev libpq-dev gcc && \
     apt-get clean
     
+RUN pip install --upgrade pip
 RUN pip install --no-cache-dir pandas==1.0.5
 RUN pip install --no-cache-dir SQLAlchemy==1.3.18 
-RUN pip install --no-cache-dir psycopg2
+RUN pip install --no-cache-dir psycopg2==2.8.5
 
 RUN apt-get -y --purge autoremove python3-dev gcc
 

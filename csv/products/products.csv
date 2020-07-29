@@ -1,0 +1,536 @@
+id;code;name;description;brand_id
+1;GMM 0901 HT;Yamuna Ash;Heritage;1
+2;GMM 0902 HT;Alora Ash;Heritage;1
+3;GMM 0911 HT;Kerala Oak;Heritage;1
+4;GMM 0925 HT;Agra Teak;Heritage;1
+5;GMM 0927 HT;Madurai Teak;Heritage;1
+6;GMM 0912 HT;Pandean Oak;Heritage;1
+7;GMM 0922 HT;Dandaka Oak;Heritage;1
+8;GMM 0926 HT;Shimla Teak;Heritage;1
+9;GMM 2222 DM;Azure Oak;Drymatt;1
+10;GMM 2224 DM;Phantom Oak;Drymatt;1
+11;GMM 2225 DM;Poigar Oak;Drymatt;1
+12;GMM 2235 DM;Retro Samama;Drymatt;1
+13;GMM 2516 DM;Canyon Ash;Drymatt;1
+14;GMM 2517 DM;Olive Ash;Drymatt;1
+15;GMM 2518 DM;Bavarian Ash;Drymatt;1
+16;GMM 2218 DM;Lebanon Noce;Drymatt;1
+17;GMM 2223 DM;Avant Teak;Drymatt;1
+18;GMM 2227 DM;Greyco Lingua;Drymatt;1
+19;GMM 2229 DM;Albino Lingua;Drymatt;1
+20;GMM 2231 DM;Java Teak;Drymatt;1
+21;GMM 2232 DM;Brazillian Teak;Drymatt;1
+22;GMM 2233 DM;Ebony Samama;Drymatt;1
+23;GMM 2234 DM;Auburn Samama;Drymatt;1
+24;GMM 2510 DM;Bronco Larch;Drymatt;1
+25;GMM 2511 DM;Eastern Larch;Drymatt;1
+26;GMM 2512 DM;White Larch;Drymatt;1
+27;GMM 2514 DM;Dale Noce;Drymatt;1
+28;GMM 2515 DM;Roma Noce;Drymatt;1
+29;GMM 2521 DM;Sicillian Lingua;Drymatt;1
+30;GMM 2524 DM;White Matoa;Drymatt;1
+31;GMM 2525 DM;Brown Mantoa;Drymatt;1
+32;GMM 2526 DM;Dark Matoa;Drymatt;1
+33;GMM 1529 VT;Dust Chalky Board;Vintage;1
+34;GMM 1530 VT;Dark Chalky Board;Vintage;1
+35;GMM 1531 VT;Light Chalky Board;Vintage;1
+36;GMM 1404 VT;Wero Bintangor;Vintage;1
+37;GMM 1420 VT;Keraton Stone;Vintage;1
+38;GMM 1339 VT;Moat Bintangor;Vintage;1
+39;GMM 1363 VT;Japan Limestone;Vintage;1
+40;GMM 1338 VT;Rose Bintangor;Vintage;1
+41;GMM 1334 VT;White Travertine;Vintage;1
+42;GMM 2404 VT;Sky Rustic;Vintage;1
+43;GMM 2407 VT;Ocean Rustic;Vintage;1
+44;GMM 1411 VT;Silver Vintage;Vintage;1
+45;GMM 1408 VT;Graphite Vintage;Vintage;1
+46;GMM 1409 VT;Bronze Vintage;Vintage;1
+47;GMM 1405 VT;Langoan Bintangor;Vintage;1
+48;GMM 1403 VT;Lily Bintangor;Vintage;1
+49;GMM 1421 VT;Imperial Stone;Vintage;1
+50;GMM 1365 VT;India Limestone;Vintage;1
+51;GMM 1335 VT;Brown Travertine;Vintage;1
+52;GMM 1428 VT;Wild Bintangor;Vintage;1
+53;GMM 2405 VT;Forest Rustic;Vintage;1
+54;GMM 2406 VT;Lava Rustic;Vintage;1
+55;GMM 0845 V;Thai Teak;Veneer;1
+56;GMM 0852 V;Siam Teak;Veneer;1
+57;GMM 0882 V;Cafe Walnut;Veneer;1
+58;GMM 0593 V;Chalky Teak;Veneer;1
+59;GMM 0177 V;Colombian Walnut;Veneer;1
+60;GMM 0510 V;Walnut Bronze;Veneer;1
+61;GMM 0544 V;Canadian Walnut;Veneer;1
+62;GMM 0184 V;Arizona Walnut;Veneer;1
+63;GMM 0894 V;Teak Exotica;Veneer;1
+64;GMM 0848 V;Straight Walnut;Veneer;1
+65;GMM 0073 W;Congo;Wave;1
+66;GMM 0184 W;Arizona Walnut;Wave;1
+67;GMM 0196 W;Celtic Ebony;Wave;1
+68;GMM 0544 W;Canadian Walnut;Wave;1
+69;GMM 0675 W;Ebony Sepia;Wave;1
+70;GMM 0679 W;Cornsilk Linosa;Wave;1
+71;GMM 0843 W;Dark Kraftwood;Wave;1
+72;GMM 0882 W;Café Walnut;Wave;1
+73;GMM 0593 W;Chalky Teak;Wave;1
+74;GMA 0514 W;Pure Oak;Wave;1
+75;GMM 0182 W;Macasar Ebony;Wave;1
+76;GMM 0186 W;Canella Rio;Wave;1
+77;GMM 0189 W;Tundra Forest;Wave;1
+78;GMM 0510 W;Walnut Bronze;Wave;1
+79;GMM 0566 W;Woodlander;Wave;1
+80;GMM 0673 W;Ebony Aspen;Wave;1
+81;GMM 0674 W;Ebony Peat;Wave;1
+82;GMM 0841 W;Acasia Exodus;Wave;1
+83;GMM 0845 W;Thai Teak;Wave;1
+84;GMM 0894 W;Teak Exotica;Wave;1
+85;GMM 0852 W;Siam Teak;Wave;1
+86;GMM 0512 STK;Koala Bamboo;Streak;1
+87;GMM 0513 STK;Vietnamese Bamboo;Streak;1
+88;GMM 0657 STK;Japanese Bamboo;Streak;1
+89;GMM 0170 SCT;Ridget Balsam;Saw Cut;1
+90;GMM 0140 SCT;Canterburry Oak;Saw Cut;1
+91;GMM 0142 SCT;Auburn Oak;Saw Cut;1
+92;GMM 0861 G;Light Zebrano;Grain;1
+93;GMM 0866 G;Ballinese Pine;Grain;1
+94;GMM 0881 G;Brown Oak;Grain;1
+95;GMM 0007 G;Douglas Pine;Grain;1
+96;GMM 0241 G;Vivid Straw;Grain;1
+97;GMM 0243 G;Malagazi Wenge;Grain;1
+98;GMM 0882 S;Café Walnut;Suede;1
+99;GMM 0005 S;Highland Pine;Suede;1
+100;GMM 0243 S;Malagazi Wenge;Suede;1
+101;GMM 0526 S;White Acasia;Suede;1
+102;GMM 0843 S;Dark Kraftwood;Suede;1
+103;GMM 0566 S;Woodlander;Suede;1
+104;GMM 0159 S;White Ashwood;Suede;1
+105;GMM 0189 S;Tundra Forest;Suede;1
+106;GMM 0184 S;Arizona Walnut;Suede;1
+107;GMM 0525 S;Ghana Wenge;Suede;1
+108;GMM 0077 S;Portland Maple;Suede;1
+109;GMM 0544 S;Canadian Walnut;Suede;1
+110;GMM 0177 S;Colombian Walnut;Suede;1
+111;GMM 0013 S;Papua Rose;Suede;1
+112;GMM 0858 S;Wenge;Suede;1
+113;GMM 0880 S;Earth Cherry;Suede;1
+114;GMM 0144 S;Black Bean;Suede;1
+115;GMM 0182 S;Macasar Ebony;Suede;1
+116;GMM 0186 S;Canella Rio;Suede;1
+117;GMM 0510 S;Walnut Bronze;Suede;1
+118;GMM 0514 S;Pure Oak;Suede;1
+119;GMM 0595 S;Sangria Oak;Suede;1
+120;GMM 0841 S;Acasia Exodus;Suede;1
+121;GMM 0845 S;Thai Teak;Suede;1
+122;GMM 0865 S;Ballinese Oak;Suede;1
+123;GMM 0894 S;Teak Exotica;Suede;1
+124;GMM 0099 S;Alaskan Teak;Suede;1
+125;GMM 0848 S;Straight Walnut;Suede;1
+126;GMM 0597 S;Weathered Oak;Suede;1
+127;GMM 0196 S;Celtic Ebony;Suede;1
+128;GMM 0511 S;Mystic Walnut;Suede;1
+129;GMM 0592 S;Orchard Delight;Suede;1
+130;GMM 0501 S;Dusky Lumber;Suede;1
+131;GMM 0596 S;Scandinavia Oak;Suede;1
+132;GMM 0593 S;Chalky Teak;Suede;1
+133;GMM 0679 S;Cornsilk Linosa;Suede;1
+134;GMM 0852 S;Siam Teak;Suede;1
+135;GMA 0012 S;Oxford Cherry;Suede;1
+136;GMA 0039 S;Intal Beech;Suede;1
+137;GMA 0042 S;Golden Beech;Suede;1
+138;GMA 0122 S;Sea Beech;Suede;1
+139;GMA 0699 S;Mahogany;Suede;1
+140;GMA 0854 S;Nice Pear;Suede;1
+141;GMA 0868 S;Nice Maple;Suede;1
+142;GMA 0881 S;Brown Oak;Suede;1
+143;GMA 0884 S;Montana Walnut;Suede;1
+144;GMM 0291 S;Velvet Maple;Suede;1
+145;GMA 0007 S;Douglas Pine;Suede;1
+146;GMA 0018 S;Canadian Birch;Suede;1
+147;GMA 0019 S;Sapelle;Suede;1
+148;GMA 0241 S;Vivid Straw;Suede;1
+149;GMA 0502 S;Elevated Wood;Suede;1
+150;GMA 0851 S;Golden Oak;Suede;1
+151;GMA 0853 S;Savannah Cherry;Suede;1
+152;GMA 0861 S;Light Zebrano;Suede;1
+153;GMA 0862 S;Dark Zebrano;Suede;1
+154;GMA 0866 S;Ballinese Pine;Suede;1
+155;GMM 1191 FA;Frosthy White;;1
+156;GMM 1193 FA;Lilac Pink;;1
+157;GMM 1151 FA;Ivory Rose;;1
+158;GMM 1564 FA;Violet;;1
+159;GMM 1191 SK;Frosthy White;;1
+160;GMM 1066 SK;Black;;1
+161;GMM 1028 SK;Chocolate;;1
+162;GMM 1066 DL;Black;;1
+163;GMM 1191 DL;Frosthy White;;1
+164;GMM 1065 DL;Cardinal;;1
+165;GMM 1191 O;Frosthy White;;1
+166;GMM 1066 O;Black;;1
+167;GMM 1065 O;Cardinal;;1
+168;GMM 1191 F;Frosthy White;;1
+169;GMM 1066 F;Black;;1
+170;GMM 1065 F;Red;;1
+171;GMM 1957 CS;Cosmic Walnut;;1
+172;GMM 1954 CS;Cosmic Glacier;;1
+173;GMM 1955 CS;Cosmic Olive;;1
+174;GMM 1956 CS;Cosmic Desert;;1
+175;GMM 1958 CS;Cosmic Zebra;;1
+176;GMM 0753 LN;Hazel Cambric;;1
+177;GMM 0754 LN;Cloudy Cambric;;1
+178;GMM 0755 LN;Tan Cambric;;1
+179;GMM 1191 MT;Frosthy White;;1
+180;GMM 1066 MT;Black;;1
+181;GMM 1065 MT;Cardinal;;1
+182;GMM 9584;Bronze Hairline;;1
+183;GMM 1066 L;Black;;1
+184;GMM 1206 L;Cappucino;;1
+185;GMM 1028 L;Chocolate;;1
+186;GMM 0575 L;Burgundy;;1
+187;GMM 9580;Silver Metal;;1
+188;GMM 9598;Silver Hairline;;1
+189;GMM 9585;Gold Hairline;;1
+190;GMA 0575 S;Burgundy;Solid Color;1
+191;GMA 1007 S;Lavender;Solid Color;1
+192;GMA 1012;Morning Glory;Solid Color;1
+193;GMA 1013 S;Emerald;Solid Color;1
+194;GMA 1024;Light Orange;Solid Color;1
+195;GMA 1056 S;Cobalt Blue;Solid Color;1
+196;GMA 1065;Cardinal;Solid Color;1
+197;GMA 1066;Black;Solid Color;1
+198;GMA 1069;Fashion Gray;Solid Color;1
+199;GMA 1087;Almond;Solid Color;1
+200;GMA 1093 S;Henna;Solid Color;1
+201;GMA 1107 S;Royal Gray;Solid Color;1
+202;GMA 1109 S;Mystic Gray;Solid Color;1
+203;GMA 1151 S;Ivory Rose;Solid Color;1
+204;GMA 1154 S;Lemon Green;Solid Color;1
+205;GMA 1191;Frosthy White;Solid Color;1
+206;GMA 1193 S;Lilac Pink;Solid Color;1
+207;GMA 1203 S;Caramel;Solid Color;1
+208;GMA 1206 S;Cappucino;Solid Color;1
+209;GMA 1225 S;Sand Brown;Solid Color;1
+210;GMA 1304 S;Dark Citrus;Solid Color;1
+211;GMA 1305 S;Mint Green;Solid Color;1
+212;GMA 1309 S;Hunter Green;Solid Color;1
+213;GMA 1322;Turkish Blue;Solid Color;1
+214;GMA 1335 S;Sea Green;Solid Color;1
+215;GMA 1402 S;Silk Blue;Solid Color;1
+216;GMA 1405 S;Blue Danube;Solid Color;1
+217;GMA 1406 S;Serenity;Solid Color;1
+218;GMA 1407 S;Sea Blue;Solid Color;1
+219;GMA 1503 S;Photo Yellow;Solid Color;1
+220;GMA 1504 S;Sun Flower;Solid Color;1
+221;GMA 1544 S;Tulip Yellow;Solid Color;1
+222;GMA 1562 S;Clear Blue;Solid Color;1
+223;GMA 1564 S;Violet;Solid Color;1
+224;GMA 1565 S;Blackcurrant;Solid Color;1
+225;GMA 2079;Dove Gray;Solid Color;1
+226;GMA 2099;Slate Gray;Solid Color;1
+227;GMA 2215 S;Orange;Solid Color;1
+228;GMM 1028;Chocolate;Solid Color;1
+229;GMM 1051;Barley;Solid Color;1
+230;GMM 1097;Khaki;Solid Color;1
+231;GMM 1127;Tan;Solid Color;1
+232;GMM 1425 CM;Greyco Cement;Cement;1
+233;GMM 1426 CM;Rustic Cement;Cement;1
+234;GMM 1429 CM;Vulcano Slate;Cement;1
+235;GMM 1430 CM;Spider Cement;Cement;1
+236;GMM 1431 CM;Teraso;Cement;1
+237;GMM 1438 CM;Light Grey Cement;Cement;1
+238;GMM 0216 CM;Irish Brown;Cement;1
+239;GMM 0267 CM;Golden Campino;Cement;1
+240;GMM 4758 CM;Gelato Cement;Cement;1
+241;GMM 4759 CM;Parched Cement;Cement;1
+242;GMM 4762 CM;Alies Micas;Cement;1
+243;GMM 4773 CM;Rustic Dream;Cement;1
+244;GMM 4789 CM;Rusty Oxid;Cement;1
+245;GMM 9952 CM;Macaroon Fossil;Cement;1
+246;GMM 9953 CM;Rugby Fossil;Cement;1
+247;GMM 4614 MR+;Panalas Cottage Pine;Mr+ Tuff;1
+248;GMM 4773 MR+;Rustic Dream;Mr+ Tuff;1
+249;GMM 4690 MR+;Alhamara Wood;Mr+ Tuff;1
+250;GMM 0515 MR+;Carsima Wood;Mr+ Tuff;1
+251;GMM 4478 MR+;Cherry Horizontal Walnut;Mr+ Tuff;1
+252;GMM 4618 MR+;Sicilian Ulura Walnut;Mr+ Tuff;1
+253;GMA 0502 HG;Elevated Wood;High Gloss;1
+254;GMM 0592 HG;Orchard Delight;High Gloss;1
+255;GMM 0177 HG;Colombian Walnut;High Gloss;1
+256;GMM 4641 W;Autumn Buaraw;Wave;1
+257;GMM 4642 W;Northern Buaraw;Wave;1
+258;GMM 4643 W;Eastern Buaraw;Wave;1
+259;GMM 4650 W;Togit Buaraw;Wave;1
+260;GMM 4641 S;Autumn Buaraw;Suede;1
+261;GMM 4642 S;Northern Buaraw;Suede;1
+262;GMM 4643 S;Eastern Buaraw;Suede;1
+263;GMM 4650 S;Togit Buaraw;Suede;1
+264;GMM 4637 W;Putty Canary;Wave;1
+265;GMM 4638 W;Brown Canary;Wave;1
+266;GMM 4639 W;Spring Canary;Wave;1
+267;GMM 4637 S;Putty Canary;Suede;1
+268;GMM 4638 S;Brown Canary;Suede;1
+269;GMM 4639 S;Spring Canary;Suede;1
+270;GMM 14186 HT;Guder Oak;Heritage;1
+271;GMM 14181 HT;Yabus Oak;Heritage;1
+272;GMM 14183 HT;Mille Oak;Heritage;1
+273;GMM 14187 HT;Mareb Oak;Heritage;1
+274;GMM 14190 HT;Nuptse Walnut;Heritage;1
+275;GMM 14191 HT;Kamet Walnut;Heritage;1
+276;GMM 1003 TM;Egg White;;5
+277;GMM 0531 TM;Smoke Grey;;5
+278;GMM 1014 TM;City Shadow;;5
+279;GMM 0142 TM;Black Magic;;5
+280;GMM 1158 TM;Interior White;;5
+281;GMM 8204 TM;Chamoise Brown;;5
+282;GMM 1046 TM;Rock Brown;;5
+283;GMM 0539 TM;Dark Chocolate;;5
+284;GMM 1027 TM;Bright Yellow;;5
+285;GMM 1059 TM;Chirpy Green;;5
+286;GMM 8304 TM;French Green;;5
+287;GMM 1047 TM;Millitary Green;;5
+288;GMM 0193 TM;Magic Move;;5
+289;GMM 8442 TM;Purple;;5
+290;GMM 1322 TM;Turkish Blue;;5
+291;GMM 1056 TM;Navy Blue;;5
+292;GMM 1055 TM;Floro Orange;;5
+293;GMM 1155 TM;Salmon Rose;;5
+294;GMM 8552 TM;Signal Red;;5
+295;GMM 1070 TM;Carrot;;5
+296;GMM 2266 TM;Brown Fumed Oak;;5
+297;GMM 2244 TM;Indian Shesham;;5
+298;GMM 7711 TM;American Walnut;;5
+299;GMM 7710 TM;Lorraine Walnut;;5
+300;GMM 2235 TM;Retro Samama;;5
+301;GMM 2234 TM;Auburn Samama;;5
+302;GMM 2222 TM;Azure Oak;;5
+303;GMM 2224 TM;Phantom Oak;;5
+304;GMM 2542 TM;River Versatile;;5
+305;GMM 2539 TM;Dark Versatile;;5
+306;GMM 7855 TM;Mineral Ash;;5
+307;GMM 7858 TM;Mineral Red;;5
+308;GMM 1483 TM;Cream Lavant;;5
+309;GMM 1484 TM;Jaipur Lavant;;5
+310;GMM 1445 TM;Natsu;;5
+311;GMM 1471 TM;Black Lava Mosaic Stone;;5
+312;SK 10453 GL;Dawn Wuda Elm;Glossy;3
+313;SK 10454 GL;Earthy Wuda Elm;Glossy;3
+314;SK 10481 GL;Rust Mindano;Glossy;3
+315;SK 10488 GL;Baffin Wood;Glossy;3
+316;SK 10453 S;Dawn Wuda Elm;Suede;3
+317;SK 10454 S;Earthy Wuda Elm;Suede;3
+318;SK 10481 S;Rust Mindano;Suede;3
+319;SK 10488 S;Baffin Wood;Suede;3
+320;SK 10474 WCT;Cocoa Crust Oak;Woodcuts;3
+321;SK 10473 WCT;Eternity Crust Oak;Woodcuts;3
+322;SK 10381 WCT;Beige Woodcut Oak;Woodcuts;3
+323;SK 10380 WCT;Red Woodcut Oak;Woodcuts;3
+324;SK 10474 S;Cocoa Crust Oak;Suede;3
+325;SK 10473 S;Eternity Crust Oak;Suede;3
+326;SK 10381 S;Beige Woodcut Oak;Suede;3
+327;SK 10380 S;Red Woodcut Oak;Suede;3
+328;SK 10346 CRC;Provence Walnut;Crisscross;3
+329;SK 10223 CRC;Isengrad Elm;Crisscross;3
+330;SK 10485 CRC;Victoria Wood;Crisscross;3
+331;SK 10346 S;Provence Walnut;Suede;3
+332;SK 10223 S;Isengrad Elm;Suede;3
+333;SK 10485 S;Victoria Wood;Suede;3
+334;SK 10381 UW;Beige Woodcut Oak;Urban Wood;3
+335;SK 10476 UW;Radience Oak;Urban Wood;3
+336;SK 10479 UW;Curnhusk Oak;Urban Wood;3
+337;SK 10455 UW;Gelato Wuda Wood;Urban Wood;3
+338;SK 10438 S;Pemba Pine;Suede;3
+339;SK 10476 S;Radience Oak;Suede;3
+340;SK 10479 S;Curnhusk Oak;Suede;3
+341;SK 10455 S;Gelato Wuda Wood;Suede;3
+342;SK 10482 S;Barn Mindano;Suede;3
+343;SK 10368 S;Blend Maple;Suede;3
+344;SK 10433 S;Totila Maple;Suede;3
+345;SK 10311 S;Golden Bamboo;Suede;3
+346;SK 10332 S;Rift Sawn;Suede;3
+347;SK 10422 S;Hippe Wood;Suede;3
+348;SK 10418 S;Tide Macassa;Suede;3
+349;SK 10452 S;Harvest Maple;Suede;3
+350;SK 11510 S;Neo Walnut Bronze;Suede;3
+351;SK 11528 S;Neo Irish Walnut;Suede;3
+352;SK 10345 S;Ripple Burnish;Suede;3
+353;SK 10489 S;Arenal Wood;Suede;3
+354;SK 10401 S;Gibbet Wood;Suede;3
+355;SK 10423 S;Billet Walnut;Suede;3
+356;SK 10508 S;Valley Crest;Suede;3
+357;SK 20018 G;Asian Silk;Glossy;3
+358;SK 20019 G;Thai Silk;Glossy;3
+359;SK 20770 G;Fineline;Glossy;3
+360;SK 20407 G;Estro Tuscany;Glossy;3
+361;SK 20747 G;Soft Limba;Glossy;3
+362;SK 20201 G;Supreme Walnut;Glossy;3
+363;SK 22122 S;Victoria Wenge;Suede;3
+364;SK 22156 S;Cosmic Zebra;Suede;3
+365;SK 22111 S;Exotic Bamboo;Suede;3
+366;SK 22042 S;True Pine;Suede;3
+367;SK 22103 S;Colonial Beech;Suede;3
+368;SK 22195 S;Buk Veneer Light;Suede;3
+369;SK 22105 S;Golden Bark;Suede;3
+370;SK 24585 S;Red Zambesi;Suede;3
+371;SK 22006 S;Classic Bamboo;Suede;3
+372;SK 21949 S;Akhort Teak;Suede;3
+373;SK 21947 S;Larson Wood;Suede;3
+374;SK 21948 S;Dark Larson;Suede;3
+375;SK 22062 S;Canary Line;Suede;3
+376;SK 22141 S;Planked Wood;Suede;3
+377;SK 22404 S;Brown Figured Anigre;Suede;3
+378;SK 22405 S;Chess Anigre;Suede;3
+379;SK 22151 S;Cosmic Grey;Suede;3
+380;SK 22419 S;Cosmic Feather;Suede;3
+381;SK 22434 S;Black Cosmic;Suede;3
+382;SK 24751 S;White Oak;Suede;3
+383;SK 22176 S;Lite Zebrtawood;Suede;3
+384;SK 22104 S;Country Oak;Suede;3
+385;SK 22135 S;Saw Cut;Suede;3
+386;SK 22136 S;Saw Cut Graphite;Suede;3
+387;SK 22002 S;Creamy Maple;Suede;3
+388;SK 22124 S;Silky Teak;Suede;3
+389;SK 22052 S;Natural Maple;Suede;3
+390;SK 22061 S;Silk Line Gold;Suede;3
+391;SK 24551 S;Borneo Maple;Suede;3
+392;SK 24663 S;Austin Teak;Suede;3
+393;SK 24554 S;California Cherry;Suede;3
+394;SK 24651 S;Spanish Wood;Suede;3
+395;SK 20142 G;Black Glossy;Glossy;3
+396;SK 28082 G;Radian Milk;Glossy;3
+397;SK 20120 G;Grey Gloosy;Glossy;3
+398;SK 20101 G;White Gloosy;Glossy;3
+399;SK 20142 S;Black;Suede;3
+400;SK 28082 S;Radian Milk;Suede;3
+401;SK 20120 S;Grey ;Suede;3
+402;SK 20101 S;White;Suede;3
+403;SK 28314 S;Magic Green;Suede;3
+404;SK 21066 S;Dull Grey;Suede;3
+405;SK 28404 S;Flip Blue;Suede;3
+406;SK 21054 S;Lemon;Suede;3
+407;SK 28152 S;Garden Pink;Suede;3
+408;VS 1397 S;Darky Jute;Woodgrain;2
+409;VD 7955 S;Silky Horizon;Woodgrain;2
+410;VD 10021 S;Foxy Tectona;Woodgrain;2
+411;VS 12090 S;Frosty Noce;Woodgrain;2
+412;VS 70064 S;Golden Noce;Woodgrain;2
+413;VD 10490 S;Caleste Elm;Woodgrain;2
+414;VD 0027 S;Nakuro Oak;Woodgrain;2
+415;VD 0201 S;Supreme Walnut;Woodgrain;2
+416;VD 0210 S;Forest Kraftwood;Woodgrain;2
+417;VD 0507 S;Vanilla Linosa;Woodgrain;2
+418;VD 0603 S;Black Zebra;Woodgrain;2
+419;VD 0775 S;Oregon Pine;Woodgrain;2
+420;VD 0326 S;Imbari Eiche;Woodgrain;2
+421;VD 0612 S;Storm Pine;Woodgrain;2
+422;VD 0351 S;Nobel Fir;Woodgrain;2
+423;VS 0023 S;Kalmer Maple;Woodgrain;2
+424;VS 0075 S;Noble Teak;Woodgrain;2
+425;VS 0082 S;Harlem Pine;Woodgrain;2
+426;VS 0541 S;Trendy Walnut;Woodgrain;2
+427;VT 0541 FP;Trendy Walnut;Woodgrain;2
+428;VT 6415 SI;Canyon Oak;Woodgrain;2
+429;VT 0071 GL;Light Tuscany;Woodgrain;2
+430;VS 0323 S;Urban Teak;Woodgrain;2
+431;VD 1353 S;Brown Jute;Woodgrain;2
+432;VS 1394 S;Warm Jute;Woodgrain;2
+433;VS 2093 S;Honey Horizon;Woodgrain;2
+434;VS 2092 S;Teak Horizon;Woodgrain;2
+435;VD 7958 S;Ebony Horizon;Woodgrain;2
+436;VD 10020 S;Wheat Tectona;Woodgrain;2
+437;VS 10030 S;Grande Tectona;Woodgrain;2
+438;VS 10033 S;Sapele Tectona;Woodgrain;2
+439;VD 12092 S;Chelsea Noce;Woodgrain;2
+440;VD 12094 S;Belfast Noce;Woodgrain;2
+441;VS 12093 S;Vulcano Noce;Woodgrain;2
+442;VD 70061 S;Coffee Noce;Woodgrain;2
+443;VD 70060 S;Ash Noce;Woodgrain;2
+444;VS 10491 S;Bella Elm;Woodgrain;2
+445;VD 10457 S;Amber Elm;Woodgrain;2
+446;VS 10454 S;Earthy Elm;Woodgrain;2
+447;VD 0018 S;Asian Silk;Woodgrain;2
+448;VD 0019 S;Thai Silk;Woodgrain;2
+449;VD 0395 S;Wild Coco;Woodgrain;2
+450;VD 0508 S;Urban Linosa;Woodgrain;2
+451;VD 0747 S;Soft Limba;Woodgrain;2
+452;VD 2022 S;Palisander;Woodgrain;2
+453;VD 0376 S;Classic Walnut;Woodgrain;2
+454;VD 0327 S;Aspen Pine;Woodgrain;2
+455;VD 0352 S;Balsam Fir;Woodgrain;2
+456;VD 0349 S;Hoop Pine;Woodgrain;2
+457;VD 0378 S;Thicket Walnut;Woodgrain;2
+458;VD 0350 S;Walnut Vasari;Woodgrain;2
+459;VS 0005 S;White Pine;Woodgrain;2
+460;VS 0010 S;Virginia Linosa;Woodgrain;2
+461;VS 0021 S;Cherry Oak;Woodgrain;2
+462;VS 0028 S;Black Pine;Woodgrain;2
+463;VS 0048 S;Brown Zebra;Woodgrain;2
+464;VS 0108 S;Tropical Teak;Woodgrain;2
+465;VS 0120 S;Antique Oak;Woodgrain;2
+466;VS 0128 S;Bright Oak;Woodgrain;2
+467;VS 0151 S;White Zebra;Woodgrain;2
+468;VS 0217 S;Copper Beech;Woodgrain;2
+469;VS 0223 S;Noble Linosa;Woodgrain;2
+470;VS 0303 S;Mystic Zebra;Woodgrain;2
+471;VS 0304 S;Panther;Woodgrain;2
+472;VS 0308 S;Plunk Teak;Woodgrain;2
+473;VS 0333 S;Vienna Elm;Woodgrain;2
+474;VS 0337 S;Potomac Pine;Woodgrain;2
+475;VS 0345 S;Ripple Burnish;Woodgrain;2
+476;VS 0385 S;Silver Kraftwood;Woodgrain;2
+477;VS 0390 S;Design Cool Teak;Woodgrain;2
+478;VS 0408 S;Malayan Teak;Woodgrain;2
+479;VS 0410 S;Golden Teak;Woodgrain;2
+480;VS 0427 S;Milan Pine;Woodgrain;2
+481;VS 0656 S;African Walnut;Woodgrain;2
+482;VS 0695 S;Fine Euroline;Woodgrain;2
+483;VS 0696 S;Clear Euroline;Woodgrain;2
+484;VS 0770 S;Fineline;Woodgrain;2
+485;VS 0796 S;Colombian Walnut;Woodgrain;2
+486;VS 0932 S;Nepal Teak;Woodgrain;2
+487;VT 0075 FP;Noble Teak;Woodgrain;2
+488;VT 0005 FP;White Pine;Woodgrain;2
+489;VT 6722 SI;Canyon Olive;Woodgrain;2
+490;VT 6420 SI;Monumen Oak;Woodgrain;2
+491;VT 6725 GL;Yadan Black;Woodgrain;2
+492;VT 0010 GL;Virginia Linosa;Woodgrain;2
+493;VT 0407 GL;Estro Tuscany;Woodgrain;2
+494;VD 0391 S;Coco Wood;Woodgrain;2
+495;VD 0407 S;Estro Tuscany;Woodgrain;2
+496;VD 0748 S;Smoky Limba;Woodgrain;2
+497;VD 0779 S;Earth Cedar;Woodgrain;2
+498;VD 0780 S;Dark Cedar;Woodgrain;2
+499;VD 0662 S;Placid Wood;Woodgrain;2
+500;VS 0001 S;Lila Walnut;Woodgrain;2
+501;VS 0035 S;Murky Walnut;Woodgrain;2
+502;VS 0071 S;Light Tuscany;Woodgrain;2
+503;VS 0225 S;Cyprus Cherry;Woodgrain;2
+504;VS 0305 S;Finland Maple;Woodgrain;2
+505;VS 0383 S;Java Kraftwood;Woodgrain;2
+506;VS 0664 S;Wild Kraftwood;Woodgrain;2
+507;VS 0792 S;Light Walnut;Woodgrain;2
+508;VS 0807 S;Silver Beech;Woodgrain;2
+509;VS 0672 S;Dark Walnut;Woodgrain;2
+510;VT 0664 FP;Wild Kraftwood;Woodgrain;2
+511;VT 0383 FP;Java Kraftwood;Woodgrain;2
+512;VS 0142 S;Black;Solid Color;2
+513;VS 0356 S;Red;Solid Color;2
+514;VS 0520 S;Alumina Gray;Solid Color;2
+515;VS 1003 S;Design White;Solid Color;2
+516;VS 0146 S;Sunny Yellow;Solid Color;2
+517;VS 0348 S;Classic Orange;Solid Color;2
+518;VS 0357 S;Polar Blue;Solid Color;2
+519;VS 0370 S;Dynamic Green;Solid Color;2
+520;VS 0142 G;Black Glossy;Solid Color;2
+521;VS 1003 G;White Glossy;Solid Color;2
+522;VS 0356 G;Red Glossy;Solid Color;2
+523;VS 0520 G;Alumina Gray Glossy;Solid Color;2
+524;VT 0142 E9;Black - E9;Solid Color;2
+525;VT 0142 E11;Black - E11;Solid Color;2
+526;VT 0142 E3;Black - E3;Solid Color;2
+527;VT 0142 E5;Black - E5;Solid Color;2
+528;VT 0572 E11;Red - E11;Solid Color;2
+529;VT 0572 E3;Red - E3;Solid Color;2
+530;VT 0572 E5;Red - E5;Solid Color;2
+531;VT 0572 E9;Red - E9;Solid Color;2
+532;VT 1020 E11;White - E11;Solid Color;2
+533;VT 1020 E3;White - E3;Solid Color;2
+534;VT 1020 E5;White - E5;Solid Color;2
+535;VT 1020 E9;White - E9;Solid Color;2

@@ -7,15 +7,16 @@ import datetime
 from sqlalchemy import create_engine, types, engine
 
 
-def seeds(model_name: str = "", db_engine: engine.Engine = None):
+def from_csv_to_db(service_db:str="",model_name: str = "", db_engine: engine.Engine = None):
 
     current_dir = os.getcwd()
 
-    data_frame = pandas.read_csv(f'{current_dir}/csv/{model_name}.csv', sep=';')
+    data_frame = pandas.read_csv(
+        f'{current_dir}/csv/{service_db}/{model_name}.csv', sep=';')
 
     data_frame.columns = [column.lower() for column in data_frame.columns]
 
-    data_frame["created_at"] = datetime.date(2000, 1, 1)
+    data_frame["created_at"] = datetime.datetime.now()
     data_frame["updated_at"] = datetime.datetime.now()
 
     data_frame.to_sql(
@@ -27,6 +28,39 @@ def seeds(model_name: str = "", db_engine: engine.Engine = None):
     )
 
 
+def iterate_csv_dir(db_engine: engine.Engine = None):
+
+    current_dir = os.getcwd()
+    db_config = config.DB()
+
+    for _, services_dir, _ in os.walk(f'{current_dir}/csv'):
+        for service_db in services_dir:
+            db_engine = create_engine(db_config.print())
+
+            db_connection = db_engine.raw_connection()
+
+            try:
+                db_cursor = db_connection.cursor()
+                db_cursor.execute(f"SELECT 1 FROM pg_catalog.pg_database WHERE datname = '{service_db}'")
+                db_exists = db_cursor.fetchone()
+                if not db_exists:
+                    db_cursor.execute(f'CREATE DATABASE {service_db}')
+                db_cursor.close()
+                db_connection.commit()
+
+            finally:
+                db_connection.close()
+                db_engine.dispose()
+            
+            db_engine = create_engine(db_config.print(service_db))
+
+            for filename in os.listdir(f'{current_dir}/csv/{service_db}'):
+                filename = os.path.splitext(filename)[0]
+                from_csv_to_db(service_db, filename, db_engine)
+
+            db_engine.dispose()
+
+
 def main():
     db_config = config.DB()
     db_engine = create_engine(db_config.print())
@@ -34,13 +68,8 @@ def main():
     logging.basicConfig()
     logging.getLogger('sqlalchemy.engine').setLevel(logging.INFO)
 
-    current_dir = os.getcwd()
-
-    for filename in os.listdir(f'{current_dir}/csv'):
-        filename = os.path.splitext(filename)[0]
-        seeds(filename,db_engine)
+    iterate_csv_dir(db_engine)
     
-    db_engine.dispose()
     return
 
 

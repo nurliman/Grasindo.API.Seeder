@@ -8,8 +8,7 @@ class DB:
         db.port = os.getenv('DB_PORT') or "5432"
         db.user = os.getenv('DB_USER') or "postgres"
         db.pswd = os.getenv('DB_PASS') or ""
-        db.name = os.getenv('DB_NAME') or ""
     
-    def print(self):
+    def print(self,db_name:str="postgres"):
         db = self
-        return f'postgresql://{db.user}:{db.pswd}@{db.host}:{db.port}/{db.name}'
+        return f'postgresql://{db.user}:{db.pswd}@{db.host}:{db.port}/{db_name}'
